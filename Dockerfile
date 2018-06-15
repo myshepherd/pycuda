@@ -12,5 +12,6 @@ RUN pip install pycuda
 # Install useful python libraries and tools
 RUN pip install pandas matplotlib sklearn scipy
 RUN apt-get install -y vim python-tk
+RUN apt-get install -y git
 
 CMD nvidia-smi -q
