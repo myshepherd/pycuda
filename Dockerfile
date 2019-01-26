@@ -6,6 +6,9 @@ MAINTAINER Yeseong Kim <yek048@ucsd.edu>
 # Install dependent packages
 RUN apt-get -y update && apt-get install -y wget nano python-pip libboost-all-dev python-numpy build-essential python-dev python-setuptools libboost-python-dev libboost-thread-dev
 
+# Upgrade pip
+RUN pip install --upgrade pip
+
 # Install pycuda
 RUN pip install pycuda
 
