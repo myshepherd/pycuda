@@ -12,4 +12,4 @@ https://hub.docker.com/r/nightseas/pycuda/
 
 Yeseong Kim, SEELAB @ UCSD, 2018
 
-http://seelab.ucsd.edu/~shepherd
+http://acsweb.ucsd.edu/~yek048/
