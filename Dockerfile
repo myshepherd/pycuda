@@ -13,8 +13,9 @@ RUN pip install --upgrade pip
 RUN pip install pycuda
 
 # Install useful python libraries and tools
-RUN pip install pandas matplotlib sklearn scipy sympy codegen pyimage pydot
+RUN pip install pandas matplotlib sklearn scipy codegen pyimage pydot
 RUN apt-get install -y vim python-tk graphviz sudo
 RUN apt-get install -y git
+RUN pip install sympy==1.2
 
 CMD nvidia-smi -q
